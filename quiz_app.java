@@ -1,11 +1,18 @@
 import java.util.*;
 public class quiz_app{
 	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.print("enter a number:");
+		int n = sc.nextInt();
 		int score = 0;
 		String s1 = "what is the sum 8 + 9";
+		System.out.print(s1);
 		String o1 = "17";
+		System.out.print(o1);
 		String o2 = "18";
+		System.out.print(o2);
 		String o3 = "19";
+		System.out.print(o3);
 		String o4 = "17";
 		if(o1 == o4){
 			score++;
@@ -14,4 +21,5 @@ public class quiz_app{
 	}
 }
 		
+
 		
