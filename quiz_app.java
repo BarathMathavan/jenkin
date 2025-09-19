@@ -3,13 +3,13 @@ public class quiz_app{
 	public static void main(String[] args){
 		int score = 0;
 		String s1 = "what is the sum 8 + 9";
-		System.out.print(s1);
+		System.out.println(s1);
 		String o1 = "17";
-		System.out.print(o1);
+		System.out.println(o1);
 		String o2 = "18";
-		System.out.print(o2);
+		System.out.println(o2);
 		String o3 = "19";
-		System.out.print(o3);
+		System.out.println(o3);
 		String o4 = "17";
 		if(o1 == o4){
 			score++;
@@ -20,4 +20,5 @@ public class quiz_app{
 		
 
 		
+
 
